@@ -1,4 +1,4 @@
-package net.ariflaksito.mysharedpref;
+package net.ariflaksito.mysharedpref.tools;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,7 +10,7 @@ public class UserPreference {
     private String KEY_COMPANY = "company";
     private SharedPreferences preferences;
 
-    UserPreference(Context context) {
+    public UserPreference(Context context) {
         String PREFS_NAME = "UserPref";
         preferences = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
     }

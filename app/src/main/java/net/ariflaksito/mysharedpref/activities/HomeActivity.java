@@ -1,12 +1,14 @@
-package net.ariflaksito.mysharedpref;
+package net.ariflaksito.mysharedpref.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import net.ariflaksito.mysharedpref.R;
+import net.ariflaksito.mysharedpref.tools.UserPreference;
 
 public class HomeActivity extends AppCompatActivity {
 
